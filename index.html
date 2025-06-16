@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>Eco-computing website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Eco-computing</h1>
+    <p>Learn and practice sustainably!</p>
+  </header>
+
+  <section class="quiz">
+    <h2> Quiz</h2>
+    <h2> Question 1</h2>
+
+    <div id="quiz-container">
+      <p id="question">What is 'Green Computing' primarily focused on?</p>
+      <button onclick="answer('a')">A. Designing, manufacturing, using, and disposing of computers efficiently and effectively with minimal impact on the environment</button>
+      <button onclick="answer('b')">B. Only using recycled computer parts</button>
+      <p id="result"></p>
+    </div>
+  </section>
+
+  <section class="quiz">
+    <h2> Question 2</h2>
+    <div id="quiz-container-2">
+      <p id="question-2">What is 'E-waste?</p>
+      <button onclick="answer2('a')">A. Organic food scraps</button>
+      <button onclick="answer2('b')">B. Discarded electronic devices</button>
+      <p id="result-2"></p>
+    </div>
+  </section>
+
+  <section class="quiz">
+    <h2>Question 3</h2>
+    <div id="quiz-container-3">
+      <p id="question-3">How can power management features on a computer contribute to Green Computing?</p>
+      <button onclick="answer3('a')">A. They make the computer run faster</button>
+      <button onclick="answer3('b')">B. They reduce energy consumption during idle periods</button>
+      <p id="result-3"></p>
+    </div>
+  </section>
+
+  <section class="api-fetch"> <h2>Tips!</h2>
+  <button onclick="displayRandomEcoTip()">Get a Tip towards sustainably</button>
+  <p id="eco-tip"></p> </section>
+
+
+  <footer>
+        <p> Eco-computing </p>
+        <h4>Shruti Churi</h4>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
